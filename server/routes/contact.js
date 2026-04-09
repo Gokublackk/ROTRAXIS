@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 // ✅ IMPORTANT: correct path + filename
-const Contact = require("../Models/contact");
+const Contact = require("../models/contact");
 
 // POST contact
 router.post("/", async (req, res) => {
