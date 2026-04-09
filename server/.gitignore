@@ -1,58 +1,17 @@
-# =========================
-# Node.js
-# =========================
+# dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
-# =========================
-# Environment variables
-# =========================
+# environment variables
 .env
-.env.*
-!.env.example
 
-# =========================
-# Build folders
-# =========================
-build/
-dist/
-out/
-
-# =========================
-# React (CRA)
-# =========================
-client/node_modules/
-client/build/
-
-# =========================
-# Server
-# =========================
-server/node_modules/
-
-# =========================
-# Logs
-# =========================
+# logs
 logs
 *.log
+npm-debug.log*
 
-# =========================
-# OS files
-# =========================
+# misc
 .DS_Store
-Thumbs.db
 
-# =========================
-# IDE files
-# =========================
+# IDE
 .vscode/
 .idea/
-
-# =========================
-# Misc
-# =========================
-*.tmp
-*.cache
-.cache/
